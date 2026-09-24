@@ -756,3 +756,26 @@ margin: 5px 0;
   border-radius:6px;
   font-size:13px;
 }
+.gallery .g{
+  position:relative !important;
+  overflow:hidden !important;
+  background-image:url("Coconut-products.png") !important;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+.gallery .g::before{
+  content:none !important;
+  display:none !important;
+}
+
+.gallery .g span{
+  position:absolute !important;
+  left:12px !important;
+  bottom:12px !important;
+  z-index:10 !important;
+  color:#fff !important;
+  background:rgba(0,0,0,.55) !important;
+  padding:6px 10px !important;
+  border-radius:6px !important;
+}
