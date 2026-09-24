@@ -705,3 +705,46 @@ display: block;
 margin: 5px 0;
 }
 }
+.contact {
+padding: 70px 0;
+}
+
+.contact-grid {
+gap: 35px;
+}
+
+footer .wrap {
+display: block;
+padding: 24px 0;
+}
+
+footer span {
+display: block;
+margin: 5px 0;
+}
+
+
+/* GAMBAR GALLERY G1-G6 */
+.gallery .g img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.gallery .g{
+  position:relative;
+  overflow:hidden;
+}
+
+.gallery .g span{
+  position:absolute;
+  left:12px;
+  bottom:12px;
+  z-index:2;
+  background:rgba(0,0,0,.55);
+  color:#fff;
+  padding:6px 10px;
+  border-radius:6px;
+  font-size:13px;
+}
